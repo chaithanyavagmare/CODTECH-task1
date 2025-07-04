@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.form__input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.button {
+  margin-left: 1em;
+  padding: 0.5em 1em;
+}
+
+.toDoList li {
+  display: flex;
+  justify-content: space-between;
+  background: #e2e2e2;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.toDoList li.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0 0.5em;
+  cursor: pointer;
+}
